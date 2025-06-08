@@ -14,7 +14,7 @@ const myServer = http.createServer((req, res) => {
           res.end("Hey Speedy here");
           break;
         case "/contact":
-          res.end("mera semsung ka number lele raat ko call karna");
+          res.end("mera semsung ka number lele raat ko call karna ok");
           break;
         default:
           res.end("nikal pheli phursat me");
